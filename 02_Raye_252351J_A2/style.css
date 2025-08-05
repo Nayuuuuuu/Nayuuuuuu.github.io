@@ -346,7 +346,9 @@ button:hover {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    #qrCodeImg{display:none;} /*hide QR code */
+    
     .head {
         font-size: 2rem;
         height: 100px;
@@ -396,4 +398,5 @@ button:hover {
         gap: 10px;
         text-align: center;
     }
+
 }
