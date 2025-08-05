@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'SOFIAPROSOFTBOLD';
+	src: local('SOFIAPROSOFTBOLD'), url('./SOFIAPROSOFTBOLD.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79925">Text with this font applied</p> */
+.fontsforweb_fontid_79925 {
+	font-family: 'SOFIAPROSOFTBOLD' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

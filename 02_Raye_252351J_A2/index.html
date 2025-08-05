@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Background transition system -->
+    <div class="background-container">
+        <div class="bg-layer bg1 active" data-bg="0"></div>
+        <div class="bg-layer bg2" data-bg="1"></div>
+        <div class="bg-layer bg3" data-bg="2"></div>
+        <div class="bg-layer bg4" data-bg="3"></div>
+        <div class="bg-layer bg5" data-bg="4"></div>
+    </div>
+
+    <header>
+        <h1 class="head">Raye's Volleyball Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button id="page1btn">Introduction</button></li>
+            <li><button id="page2btn">Rules</button></li>
+            <li><button id="page3btn">Basic Skills</button></li>
+            <li><button id="page4btn">Mini Game</button></li>
+        </ul>
+    </nav>
+
+    <main id="pagecontainer">
+        <section class="page active" id="page1">
+            <div class="intro-section">
+                <h3 class="section-title">What is Volleyball?</h3>
+                <p>
+                    Volleyball is a <span class="highlight">dynamic team sport</span> played by two teams of
+                    six players on a rectangular court divided by a net. The main objective is to send
+                    the ball over the net and land it in the opponent's court, while preventing the
+                    opponent from doing the same.
+                </p>
+                <p>
+                    Each team is allowed up to <span class="highlight">three touches</span> to return the ball,
+                    typically consisting of a bump (pass), set, and spike (attack). This creates a
+                    fast-paced, strategic game that requires excellent teamwork and communication.
+                </p>
+            </div>
+
+            <div class="intro-section">
+                <h3 class="section-title">History & Origins</h3>
+                <p>
+                    Volleyball was invented in <span class="highlight">
+                        1895 by William G. Morgan</span> in
+                    Holyoke, Massachusetts, United States. Originally
+                    called "Mintonette," it was designed
+                    as a blend of basketball, baseball, tennis, and handball.
+                </p>
+                <p>
+                    Morgan created the game for businessmen who found basketball
+                    too vigorous. Since its humble beginnings, volleyball has
+                    grown into a <span class="highlight">global phenomenon</span>
+                    ,played indoors and on beaches, with professional leagues
+                    worldwide and Olympic competition since 1964.
+                </p>
+            </div>
+
+            <div class="intro-section">
+                <h3 class="section-title">Why Play Volleyball?</h3>
+                <p>
+                    The game emphasizes <span class="highlight">
+                        teamwork, agility, coordination, and communication</span>,
+                    making it both physically challenging and mentally engaging.
+                    Unlike many sports, volleyball requires every player to
+                    be involved in both offense and defense.
+                </p>
+                <p>
+                    Whether you're spiking at the net, diving for a dig,
+                    or setting up the perfect play, volleyball offers an
+                    exciting blend of athleticism and strategy that makes it
+                    <span class="highlight">thrilling to both play and watch</span>.
+                </p>
+            </div>
+        </section>
+
+        <section class="page" id="page2">
+            <div class="intro-section">
+                <h3 class="section-title">Basic Objective</h3>
+                <p>
+                    Two teams (usually 6 players each) compete to score points
+                    by hitting the ball over the net and into the opposing
+                    team's court.
+
+                    A team scores when the opposing team:
+
+                    Lets the ball land on their court.
+
+                    Hits the ball out of bounds.
+
+                    Fails to return the ball properly within 3 touches.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Gameplay Rules</h3>
+                <p>
+                    Three touches max per side:
+                    The ball can only be hit up to three times before it must go over the net.
+                    Same player cannot hit twice in a row.
+
+                    Legal hits include bump (forearm), set (fingertips), and spike (overhand attack).
+
+                    No catching or holding the ball.
+
+                    The ball must not touch the ground on your side.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Faults (Mistakes)</h3>
+                <p>
+                    You lose the rally if:
+
+                    Ball lands outside the court.
+
+                    Ball hits the antenna (stick on the net).
+
+                    Player touches the net.
+
+                    Player crosses the centerline.
+
+                    Serving out of bounds or into the net.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Player Positions</h3>
+                <p>
+                    3 players at the front (near net): blockers and spikers.
+
+                    3 players at the back: defensive players and servers.
+
+                    Libero: a special back-row player (wears a different jersey,
+                    cannot spike or serve in some leagues).
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Winning the Game</h3>
+                <p>
+                    A match is usually best of 5 sets.
+
+                    To win a set:
+
+                    Get 25 points (must lead by at least 2 points).
+
+                    In the 5th set (if needed), teams play to 15 points.
+                </p>
+            </div>
+        </section>
+
+        <section class="page" id="page3">
+            <div class="intro-section">
+                <h3 class="section-title">Serving</h3>
+                <p>
+                    Start the rally by sending the ball over the net.
+
+                    Types:
+
+                    Underhand Serve: Easy for beginners; swing arm from below.
+
+                    Overhand Serve: More powerful; toss and hit the ball above your head.
+
+                    Jump Serve: Advanced; jump and hit with power and spin.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Passing (Bumping)</h3>
+                <p>
+                    Receive the serve or attack and direct the ball to the setter.
+
+                    How: Use your forearms (with arms straight and hands together) to bump the ball up.
+
+                    Key Tip: Keep your body low and arms firm.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Setting</h3>
+                <p>
+                    Set up the ball for a teammate to spike.
+
+                    How: Use fingertips (not palms) to push the ball upward.
+
+                    Key Tip: Make a triangle shape with your hands and push
+                    with your legs and arms.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Spiking (Attacking)</h3>
+                <p>
+                    Purpose: Hit the ball forcefully over the net to score.
+
+                    How: Jump and use an overhead swing to hit the ball downwards.
+
+                    Key Tip: Use power and aim to hit into open areas of the opponent's court.
+                </p>
+            </div>
+            <div class="intro-section">
+                <h3 class="section-title">Blocking</h3>
+                <p>
+                    Purpose: Stop or deflect the opponent's spike at the net.
+
+                    How: Jump with arms straight up to block the ball.
+
+                    Key Tip: Time your jump and keep your hands above the net.
+                </p>
+            </div>
+        </section>
+
+        <section class="page" id="page4">
+            <div class="intro-section">
+                <h3 class="section-title">Volleyball Mini Game</h3>
+                <p>Practice your volleyball serve! First toss the ball, then hit it over the net to score!</p>
+
+                <div id="gameContainer">
+                    <canvas id="gameCanvas" width="800" height="400"></canvas>
+                    <div class="game-controls">
+                        <button id="tossBtn">Toss Ball</button>
+                        <button id="hitBtn">Hit Ball</button>
+                        <button id="resetBtn">Reset Game</button>
+                        <div class="score">
+                            <span>Successful Serves: <span id="score1">0</span></span>
+                            <span>Total Attempts: <span id="score2">0</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Background indicators -->
+    <div class="bg-indicators">
+        <span class="bg-dot active" onclick="showBackground(0)"></span>
+        <span class="bg-dot" onclick="showBackground(1)"></span>
+        <span class="bg-dot" onclick="showBackground(2)"></span>
+        <span class="bg-dot" onclick="showBackground(3)"></span>
+        <span class="bg-dot" onclick="showBackground(4)"></span>
+    </div>
+</body>
+
+</html>
